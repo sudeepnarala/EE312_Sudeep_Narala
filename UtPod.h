@@ -25,6 +25,7 @@ private:
     SongNode *songs;  //the head pointer
 
     int memSize;
+    int taken;
 
 public:
     UtPod();
@@ -42,7 +43,7 @@ public:
 
     int getRemainingMemory();
 
-    ~UtPod();
+//    ~UtPod();     //Why had to delete?
 
 };
 
