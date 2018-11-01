@@ -13,8 +13,6 @@ You will want to do more complete testing.
 #include <iostream>
 #include "song.h"
 #include "UtPod.h"
-#include "song.cpp"
-#include "UtPod.cpp"
 #include <stdio.h>
 
 

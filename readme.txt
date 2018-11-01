@@ -1,0 +1,1 @@
+Run program by running "make" and then by running the command "./test" to run the driver. The driver should take you step by step through the testing of the UtPod to make sure that it is fully functional.
