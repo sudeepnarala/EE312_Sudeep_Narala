@@ -45,7 +45,7 @@ bool Song::operator >(Song const &rhs)
 
 bool Song::operator <(Song const &rhs)
 {
-    if(artist < rhs.artist) // Can do this with strings?
+    if(artist < rhs.artist)
     {
         return true;
     }
