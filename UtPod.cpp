@@ -97,7 +97,7 @@ void UtPod::showSongList()
         for(int i=0; i<num2-ss.getTitle().length(); i++)
             spaces2 += " ";
 
-        cout << ss.getArtist() << spaces << ss.getTitle() << spaces2 << ss.getSize() << "\n";
+        cout << ss.getArtist() << spaces << ss.getTitle() << spaces2 << ss.getSize() << " MB"<< "\n";
         ptr = ptr->next;
     }
 }
